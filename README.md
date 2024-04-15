@@ -51,7 +51,7 @@ Alors je me rappelle forcément pas de tous les détails dans l'ordre historique
 - Après ça je fonctionne à tatillon pour changer 2/3 éléments assez """simples""" pour me familiariser avec BepInEx / Harmony   
     - Je change quelques textes   
     - Quand je build le plugin il me fait chier parce que le package Unity UI est pas passé (jsp pk) donc je vais chercher le bon dll dans le dossier Toree3D\_Data que je copie du côté de mon plugin. Puis je l'importe dans le .csproj   
-        ![image.png](images\image_u.png)    
+        ![image.png](images/image_u.png)    
     - ça marche niquel   
 - Ensuite j'utilise AssetRipper pour récupérer la blinde d'assets du jeu dans des dossiers bien rangés   
 - Je créé un nouveau projet Unity avec la même version qui a été utilisée pour faire le jeu   
@@ -65,15 +65,15 @@ Alors je me rappelle forcément pas de tous les détails dans l'ordre historique
     - J'importe donc le default cube de Blender (merci à lui) dans Unity   
     - Je dl l'asset bundle manager officiel depuis l'asset manager d'Unity   
     - J'attribue mon asset de cube à un bundle et à un groupe   
-        ![image.png](images\image.png)    
+        ![image.png](images/image.png)    
     - J'ouvre l'asset bundle browser depuis `Windows > Asset Browser Bundle` et je build    
     - J'inspecte le bundle généré (.assetbundle) avec UABE Avalonia   
-        ![image.png](images\image_0.png)    
+        ![image.png](images/image_0.png)    
     - Ensuite dans mon code je charge le bundle et j'extrais mon asset (le "path" c'est ce qui est décrit dans la colonne "Container" de UABE   
-        ![image.png](images\image_p.png)    
+        ![image.png](images/image_p.png)    
         Faut faire gaffe à pas charger plus d'une fois un bundle sinon fatal error et plus rien marche, donc garder le bundle en mémoire dans une variable globale et l'utiliser comme ça (en plus comme ça tu peux l'utiliser dans plusieurs patchs (voir mon code)   
         - Voilà j'ai un cube : (lezgo)   
-        ![image.png](images\image_1x.png)    
+        ![image.png](images/image_1x.png)    
 - Je dl un FBX de Shrek pas trop dégueu sur Sketchfab   
 - Je l'importe dans Unity   
     - Y'a déjà quelques anims de con fournies mais elles sont bof   
@@ -88,4 +88,4 @@ Alors je me rappelle forcément pas de tous les détails dans l'ordre historique
    
    
 donc au final on a un beau shrek animé à la place de Toree 👌   
-![image.png](images\image_o.png)    
+![image.png](images/image_o.png)    
