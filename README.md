@@ -1,4 +1,8 @@
 # Modding Toree3D  
+
+![29-03-2025 23-05-49](https://github.com/user-attachments/assets/1a0e6e58-d984-4319-8f3a-a9142b8e6cc0)
+
+
 ## 🇫🇷 French Only -- may translate later 
    
 ça fait longtemps que je voulais m'essayer à modder des jeux, pour x ou y raison   
@@ -88,4 +92,5 @@ Alors je me rappelle forcément pas de tous les détails dans l'ordre historique
    
    
 donc au final on a un beau shrek animé à la place de Toree 👌   
-![image.png](images/image_o.png)    
+![image](https://github.com/user-attachments/assets/de1387c8-6cb8-41b6-ae76-c8f2b265b463)
+
